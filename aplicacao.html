@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ClimAgir | TWeb </title>
+
+    <!-- Ligações CSS -->
+    <link href="trabalhotweb.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fim Ligações CSS -->
+</head>
+
+<body>
+ 
+<!-- Container Geral -->
+<div class="containergeral">
+  
+<!-- Menu Navegação -->
+<div class="topnav" id="myTopnav">
+ 
+    <!-- MENU Inicio -->
+    <a href="inicio.html">Início</a>
+    <!-- Fim MENU Inicio -->
+    
+    <!-- MENU Quem Somos COM SUBMENUS -->
+    <!-- MENU Quem Somos -->
+        <div class="dropdown">
+            <button class="dropbtn">Quem Somos
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <!-- SUBMENUS -->
+            <div class="dropdown-content">
+                <a href="equipa.html">Equipa</a>
+                <a href="contactos.html">Contactos</a>
+                <a href="candidatura.html">Candidatura Espontânea</a>
+            </div>
+            <!-- FimSUBMENUS -->
+        </div>
+        <!-- Fim MENU Quem Somos -->
+    <!--Fim Menu Quem Somos COM SUBMENUS -->
+
+    <!-- MENU O que Fazemos -->
+    <a href="oquefazemos.html">O que fazemos</a>
+    <!-- Fim MENU O que Fazemos -->
+    
+    <!-- MENU Eventos COM SUBMENUS -->
+    <!-- MENU Eventos --> 
+    <div class="dropdown">
+        <button class="dropbtn">Eventos
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <!-- SUBMENUS -->
+        <div class="dropdown-content">
+            <a href="eventosescolas.html">Ações Escolas</a>
+            <a href="eventosmunicipios.html">Ações Municípios</a>
+            <a href="eventospraias.html">Ações Praias</a>
+        </div>
+        <!-- FimSUBMENUS -->
+  </div>
+   <!-- Fim MENU Eventos -->
+   <!--Fim Menu Eventos COM SUBMENUS -->
+    
+    <!-- MENU Recursos COM SUBMENUS -->
+    <!-- MENU Recursos --> 
+    <div class="dropdown">
+        <button class="dropbtn" id="active">Recursos
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <!-- SUBMENUS -->
+        <div class="dropdown-content">
+            <a href="aplicacao.html" class="active">Aplicação</a>
+            <a href="mascote.html">Mascote</a>
+        </div>
+        <!-- FimSUBMENUS -->
+    </div>
+    <!-- Fim MENU Recursos -->
+   <!--Fim Menu Recursos COM SUBMENUS -->
+    
+    <!-- MENU Entrar -->
+    <a href="entrar.html">Entrar</a>
+    <!-- Fim MENU Entrar -->
+    
+    <!-- Funcao Menu Hamburguer -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <!-- Fim Funcao Menu Hamburguer -->
+</div>
+<!-- Fim Menu Navegação -->
+    
+<!-- Texto Aplicação -->
+<div class="introduçaoaplicaçao">
+    <h2>Faça Download da nossa aplicação. É gratuito!</h2>
+    <p>A aplicação ClimAgir enquadra-se no projeto para o Reforço das Capacidade de adaptação às alterações climáticas – Ações de Comunicação e Sensibilização na CIM-RC.</p>
+    <p>Fique a par das nossas próximas ações de sensibilização, e venha participar connosco!</p>
+</div>
+<!-- Fim Texto Aplicação -->
+
+<!-- Botões de Download -->
+<div class="BotoesDownload">
+    <button class="googleaplicaçao"><i class="fa fa-download"></i><a href="https://play.google.com/store/apps/details?id=pt.primelayer.climagir&fbclid=IwAR1tB-bZzGiZWWRPnos9ppTuJJmZqwssVRi0MVfJRkZVJDR8PQk3NNs6cWk" download="Aplicação">Download GooglePlay</a></button>
+    <button class="appleaplicaçao"><i class="fa fa-download"></i><a href="https://apps.apple.com/us/app/climagir/id1441951333?fbclid=IwAR0DtsBXF9XpEEW69LdQA_7viYFpf3LlD6-4DzrMhD9HMvr2YgfSE_fh6Qw&l=pt&ls=1" download="Aplicação">Download AppStore</a></button>
+</div>
+<!-- Fim Botões de Download -->
+    
+<!-- SLIDESHOW-->
+<!-- Slideshow container-->
+    <div class="slideshowthumbnailscontainer">
+        
+        <!-- Imagens Grandes-->
+        <div class="imagensgrandes">
+        <div class="numeracao">1 / 6</div>
+                <img src="img/app1.png" class="medidas">
+        </div>
+    
+        <div class="imagensgrandes">
+        <div class="numeracao">2 / 6</div>
+                <img src="img/app2.png" class="medidas">
+        </div>
+    
+        <div class="imagensgrandes">
+        <div class="numeracao">3 / 6</div>
+                <img src="img/app3.png" class="medidas">
+        </div>
+          
+        <div class="imagensgrandes">
+        <div class="numeracao">4 / 6</div>
+                <img src="img/app4.png" class="medidas">
+        </div>
+    
+        <div class="imagensgrandes">
+        <div class="numeracao">5 / 6</div>
+                <img src="img/app5.png" class="medidas">
+        </div>
+    
+        <div class="imagensgrandes">
+        <div class="numeracao">6 / 6</div>
+                <img src="img/app6.png" class="medidas">
+        </div>  
+        <!-- Fim Imagens Grandes-->
+        
+        <!-- Botões -->
+        <a class="before" onclick="proximoS(-1)">&#10094;</a>
+        <a class="after" onclick="proximoS(1)">&#10095;</a>
+        <!-- Fim Botões -->
+        
+        <!-- Legenda -->
+        <div class="geralslideshow">
+            <p id="legendaslideshow"></p>
+        </div>
+        <!-- Fim Legenda -->
+        
+        <!-- Imagens Pequenas -->
+        <div class="linhathumb">
+        <div class="colunathumb">
+                <img class="cursor-linha" src="img/app1.png" onclick="atual(1)" alt="App 1">
+        </div>
+            
+        <div class="colunathumb"> 
+            <img class="cursor-linha" src="img/app2.png" onclick="atual(2)" alt="App 2">
+        </div>
+            
+        <div class="colunathumb">
+            <img class="cursor-linha" src="img/app3.png" onclick="atual(3)" alt="App 3">
+        </div>
+            
+        <div class="colunathumb">
+            <img class="cursor-linha" src="img/app4.png" onclick="atual(4)" alt="App 4">
+        </div>
+            
+        <div class="colunathumb">
+            <img class="cursor-linha" src="img/app5.png" onclick="atual(5)" alt="App 5">
+        </div> 
+        <div class="colunathumb">
+            <img class="cursor-linha" src="img/app6.png" onclick="atual(6)" alt="App 6">
+        </div>
+        </div>
+        <!-- Fim Imagens Pequenas -->
+        
+    </div>
+<!-- Fim Slideshow container-->
+
+<!-- Footer-->
+<footer>
+   
+    <!-- Logo no Footer -->
+    <div class="logofooter">
+        <a href="inicio.html" class="active"> <img src="img/Logo.png"></a>
+    </div>
+    <!-- Fim Logo no Footer -->
+
+    <!--Container Texto e Telefone Footer -->
+    <div class="containertextofooter"> 
+        <!-- Texto Morada Footer -->
+        <div class="textofooter">
+        <p><b>Climagir Sede</b></p>
+        <p>Rua do Brasil, N.º 131</p>
+        <p>3030-175 Coimbra</p>
+        </div>
+        <!-- Fim Texto Morada Footer -->
+        
+        <!-- Chamada Telefónica -->
+        <div class="telefonema">
+            <a href="tel:+351 239 795 200" target="_blank"><i class="fa fa-phone"></i></a>
+        </div>
+        <!-- Fim Chamada Telefónica -->
+        </div>
+    <!--Fim Container Texto e Telefone Footer -->
+    
+    <!-- Redes Sociais -->
+    <div class="redessociais">
+        <ul>
+            <li><a href="https://www.facebook.com/climagir/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/climagir/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC4X-o-yQ5p2D0smw62KAifQ/featured" target="_blank"><i class="fa fa-youtube-square"></i></a></li>   
+        </ul>
+    </div>
+    <!-- Fim Redes Sociais -->
+</footer>
+<!-- Fim Footer-->
+
+</div> 
+<!-- Fim Container Geral -->
+    
+</body>   
+
+    <script>
+    
+    /* Menu Navegação*/
+    /* Alterna entre adicionar ou remover a classe "responsive" ao menu de navegação quando o user clica nas barras*/
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+        }
+    /* Fim Menu Navegação*/
+        
+    /* Slideshow no Menu Aplicação*/
+         var indice = 1;
+            mostra(indice);
+
+            function proximoS(n) {
+                mostra(indice += n);
+            }
+
+            function atual(n) {
+                mostra(indice = n);
+            }
+
+            function mostra(n) {
+                var i;
+                var slides = document.getElementsByClassName("imagensgrandes");
+                var ponto = document.getElementsByClassName("cursor-linha");
+                var texto = document.getElementById("legendaslideshow");
+                    if (n > slides.length) {indice = 1}
+                    if (n < 1) {indice = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < ponto.length; i++) {
+                    ponto[i].className = ponto[i].className.replace(" activo", "");
+                    }
+                slides[indice-1].style.display = "block";
+                ponto[indice-1].className += " activo";
+                texto.innerHTML = ponto[indice-1].alt;
+                }
+    /* Slideshow no Menu Aplicação*/
+        
+    </script>
+
+</html>

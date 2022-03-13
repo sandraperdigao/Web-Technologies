@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ClimAgir | TWeb </title>
+
+    <!-- Ligações CSS -->
+    <link href="trabalhotweb.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fim Ligações CSS -->
+</head>
+
+<body>
+
+<!-- Container Geral -->
+<div class="containergeral">
+  
+<!-- Menu Navegação -->
+<div class="topnav" id="myTopnav">
+ 
+    <!-- MENU Inicio -->
+    <a href="inicio.html">Início</a>
+    <!-- Fim MENU Inicio -->
+    
+    <!-- MENU Quem Somos COM SUBMENUS -->
+    <!-- MENU Quem Somos -->
+        <div class="dropdown">
+            <button class="dropbtn">Quem Somos
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <!-- SUBMENUS -->
+            <div class="dropdown-content">
+                <a href="equipa.html">Equipa</a>
+                <a href="contactos.html">Contactos</a>
+                <a href="candidatura.html">Candidatura Espontânea</a>
+            </div>
+            <!-- FimSUBMENUS -->
+        </div>
+        <!-- MENU Quem Somos -->
+    <!--Fim Menu Quem Somos COM SUBMENUS -->
+
+    <!-- MENU O que Fazemos -->
+    <a href="oquefazemos.html">O que fazemos</a>
+    <!-- Fim MENU O que Fazemos -->
+    
+    <!-- MENU Eventos COM SUBMENUS -->
+    <!-- MENU Eventos --> 
+    <div class="dropdown">
+        <button class="dropbtn" id="active">Eventos
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <!-- SUBMENUS -->
+        <div class="dropdown-content">
+            <a href="eventosescolas.html">Ações Escolas</a>
+            <a href="eventosmunicipios.html">Ações Municípios</a>
+            <a href="eventospraias.html" class="active">Ações Praias</a>
+        </div>
+        <!-- FimSUBMENUS -->
+  </div>
+   <!-- MENU Eventos -->
+   <!--Fim Menu Eventos COM SUBMENUS -->
+    
+    <!-- MENU Recursos COM SUBMENUS -->
+    <!-- MENU Recursos --> 
+    <div class="dropdown">
+        <button class="dropbtn">Recursos
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <!-- SUBMENUS -->
+        <div class="dropdown-content">
+            <a href="aplicacao.html">Aplicação</a>
+            <a href="mascote.html">Mascote</a>
+        </div>
+        <!-- FimSUBMENUS -->
+    </div>
+    <!-- MENU Recursos -->
+   <!--Fim Menu Recursos COM SUBMENUS -->
+    
+    <!-- MENU Entrar -->
+    <a href="entrar.html">Entrar</a>
+    <!-- Fim MENU Entrar -->
+    
+    <!-- Funcao Menu Hamburguer -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <!-- Fim Funcao Menu Hamburguer -->
+</div>
+<!-- Fim Menu Navegação -->
+    
+<!-- Texto Ações Praias -->
+<div id="acoes">
+    
+<h2>Ações Praias</h2>
+<p>As Ações Praia realizam-se durante o Verão, para um público em geral.</p>
+<p>A população receberá informações sobre o projeto em formato de folheto informativo, de forma a contribuir para o estudo destas matérias de forma contínua e <em>promover o debate familiar sobre as alterações climáticas</em>. Serão também sensibilizadas para vários fatores típicos da época, como as ondas de calor, temperaturas extremas, os incêndios, entre outros.</p>
+<p>Estas ações serão feitas em Praias e Praias Fluviais dos 19 Municípios da CIM Região de Coimbra.</p>
+</div>
+<!-- Fim Texto Ações Praias -->
+    
+<!-- SLIDESHOW-->
+<!-- Slideshow container-->
+
+<div class="conteudo">
+        <div class="OsSlides fade">
+        <div class="numeros">1 / 6</div>
+                <img src="img/Praia1.jpg" style="width:100%">
+        <div class="texto">Limpeza Costeira</div>
+        </div>
+    
+        <div class="OsSlides fade">
+        <div class="numeros">2 / 6</div>
+                <img src="img/Praia2.jpg" style="width:100%">
+        <div class="texto">Piscinas da Fraga</div>
+        </div>
+    
+        <div class="OsSlides fade">
+        <div class="numeros">3 / 6</div>
+                <img src="img/Praia3.jpg" style="width:100%">
+        <div class="texto">Praia Fluvial de Palheiros e Zorro</div>
+        </div>
+          
+        <div class="OsSlides fade">
+        <div class="numeros">4 / 6</div>
+                <img src="img/Praia4.jpg" style="width:100%">
+        <div class="texto">Praia Fluvial do Reconquinho</div>
+        </div>
+    
+        <div class="OsSlides fade">
+        <div class="numeros">5 / 6</div>
+                <img src="img/Praia5.jpg" style="width:100%">
+        <div class="texto">Praia Fluvial do Reconquinho</div>
+        </div>
+    
+        <div class="OsSlides fade">
+        <div class="numeros">6 / 6</div>
+                <img src="img/Praia6.jpg" style="width:100%">
+        <div class="texto">Praia Fluvial do Reconquinho</div>
+        </div>  
+
+        <!-- Botões -->
+        <a class="antes" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="depois" onclick="plusSlides(1)">&#10095;</a>
+        <!-- Fim Botões -->
+</div>
+<!-- Fim Slideshow container-->
+<br/>
+
+
+<!-- Formulario Sugestao Ação -->
+<div class=formulario>
+    <h3>Tem alguma sugestão de ação ou evento?</h3>
+    <p>Se tiver alguma sugestão preencha o formulario que se segue!</p>   
+
+    
+     <form name="sugestao" action="mailto:abcd@gmail.com" method="post" id="sugestao">
+        <h3>Formulário</h3>
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="nomecomp" placeholder="André Antunes" required="required"/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="antunes@exemplo.com" required="required"/>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel" placeholder="(91) 222 2222" required="required" />
+
+        <br/><br/>
+        
+        <textarea id="areatexto" name="janela1" rows="5" placeholder="Escreva aqui a sua sugestão" maxlength="250" required="required"></textarea> 
+
+        <input type="submit" value="Enviar" id="btnform">
+         
+    </form>
+    
+</div>
+<!-- Fim Formulario Sugestao Ação -->
+
+<!-- Footer-->
+<footer>
+   
+    <!-- Logo no Footer -->
+    <div class="logofooter">
+        <a href="inicio.html" class="active"> <img src="img/Logo.png"></a>
+    </div>
+    <!-- Fim Logo no Footer -->
+
+    <!--Container Texto e Telefone Footer -->
+    <div class="containertextofooter"> 
+        <!-- Texto Morada Footer -->
+        <div class="textofooter">
+        <p><b>Climagir Sede</b></p>
+        <p>Rua do Brasil, N.º 131</p>
+        <p>3030-175 Coimbra</p>
+        </div>
+        <!-- Fim Texto Morada Footer -->
+        
+        <!-- Chamada Telefónica -->
+        <div class="telefonema">
+            <a href="tel:+351 239 795 200" target="_blank"><i class="fa fa-phone"></i></a>
+        </div>
+        <!-- Fim Chamada Telefónica -->
+    </div>
+    <!--Fim Container Texto e Telefone Footer -->
+    
+    <!-- Redes Sociais -->
+    <div class="redessociais">
+        <ul>
+            <li><a href="https://www.facebook.com/climagir/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/climagir/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC4X-o-yQ5p2D0smw62KAifQ/featured" target="_blank"><i class="fa fa-youtube-square"></i></a></li>   
+        </ul>
+    </div>
+    <!-- Fim Redes Sociais -->
+    
+</footer>
+<!-- Fim Footer-->
+</div> 
+<!-- Fim Container Geral -->
+    
+ <script type="text/javascript" src="formeventos.js"></script> 
+    
+</body>   
+
+    <script>
+    /* Alterna entre adicionar ou remover a classe "responsive" ao menu de navegação quando o user clica nas barras*/
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+    
+<script>
+        /*Definir SlideIndex=1 (primeira imagem vai ter slideIndex 1*/
+        /*Chama a função showSlides(1) para mostrar a 1ª imagem*/ 
+        
+        var slideIndex = 1;                                                    
+        showSlides(slideIndex); 
+
+        /*Quando o user carrega num dos botões chama esta função plusSlides(), que é o que ficou definido em cima na definição dos Botões*/
+        /*Chama a função showSlides(slideIndex)onde o slideIndex =slideIndex+1 ou slideIndex-1, assim o slideshow vai mudar uma imagem para a esquerda ou para a direita*/
+        
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        
+                              
+        /*Definir a variável i que vai ser um contador*/
+        /* Definir a variável x que é igual ao número de slides*/
+        /*  Faz o reset de o valor de slideIndex para 1 quando o último slide é ultrapassado*/
+        /*  se na primeira imagem o utilizador carregar no botão para trás em vez de o botão seguinte, o slideshow tem que mostrar a última imagem, entao atribui ao slideIndex o valor de o número total de slides*/
+        /* a função showSlides esconde (display=none) todas as imagens*/
+        /* a função showSlides mostra (display=block) o elemento com o número de slideIndex, ou seja, só mostra a imagem de o slide currente*/
+        
+        function showSlides(n) { 
+            var i; 
+            
+            var x = document.getElementsByClassName("OsSlides"); 
+            
+            if (n > x.length) {slideIndex = 1}; 
+            
+            if (n < 1) {slideIndex = x.length}; 
+            
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+        }
+            
+        x[slideIndex-1].style.display = "block"; 
+            
+        }
+</script>
+
+</html>
