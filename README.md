@@ -1,2 +1,2 @@
-# Tecnologias-Web
-HTML CSS JavaScript Trabalho da Licenciatura de Engenharia Informática na disciplina de Tecnologias Web 2019-2020
+# Web Technologies
+HTML CSS JavaScript Work as a student of the Bachelor's Degree in Computer Science 2019-2020
